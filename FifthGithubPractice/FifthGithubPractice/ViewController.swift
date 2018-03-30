@@ -18,6 +18,12 @@ class ViewController: UIViewController {
     }
 
     override func viewDidLoad() {
+        class Test2{
+            let test = "test2"
+            func test2()  {
+                print(test)
+            }
+        }
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let dev = "Develop"
