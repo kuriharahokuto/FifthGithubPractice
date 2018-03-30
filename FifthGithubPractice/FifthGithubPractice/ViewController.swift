@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    class Check{
+        let chk = "Check"
+        func confirm() {
+            print(chk)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let dev = "Develop"
+        print("dev")
     }
 
     override func didReceiveMemoryWarning() {
